@@ -5,6 +5,8 @@ UNRELEASED
   https://gitlab.com/gitlab-org/gitaly/merge_requests/332
 - Don't use 'bundle show' to find Linguist
   https://gitlab.com/gitlab-org/gitaly/merge_requests/339
+- Update vendor/gitlab_git to 32a9601d21659b5e2b33920fc013dcef978d9c38
+  https://gitlab.com/gitlab-org/gitaly/merge_requests/344
 
 v0.39.0
 - Reimplement FindAllTags RPC in Ruby
