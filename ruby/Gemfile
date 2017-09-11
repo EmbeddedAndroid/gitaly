@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
 gem 'github-linguist', '~> 4.7.0', require: 'linguist'
-gem 'gitaly-proto', '~> 0.32.0', require: 'gitaly'
+gem 'gitaly-proto', git: 'https://gitlab.com/gitlab-org/gitaly-proto.git', branch: 'user-create-branch', require: 'gitaly'
 gem 'activesupport'

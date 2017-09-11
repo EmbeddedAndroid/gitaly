@@ -1,3 +1,12 @@
+GIT
+  remote: https://gitlab.com/gitlab-org/gitaly-proto.git
+  revision: 8263f14d6d1a6c649bef795f2eab310a403d562e
+  branch: user-create-branch
+  specs:
+    gitaly-proto (0.33.0)
+      google-protobuf (~> 3.1)
+      grpc (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -13,9 +22,6 @@ GEM
     escape_utils (1.1.1)
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
-    gitaly-proto (0.32.0)
-      google-protobuf (~> 3.1)
-      grpc (~> 1.0)
     github-linguist (4.7.6)
       charlock_holmes (~> 0.7.3)
       escape_utils (~> 1.1.0)
@@ -63,8 +69,8 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
-  gitaly-proto (~> 0.32.0)
+  gitaly-proto!
   github-linguist (~> 4.7.0)
 
 BUNDLED WITH
-   1.15.3
+   1.15.4
