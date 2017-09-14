@@ -13,6 +13,8 @@ UNRELEASED
   https://gitlab.com/gitlab-org/gitaly/merge_requests/349
 - Handle git dates larger than golang's and protobuf's limits
   https://gitlab.com/gitlab-org/gitaly/merge_requests/353
+- Use grpc 1.6.0 and update all the things
+  https://gitlab.com/gitlab-org/gitaly/merge_requests/354
 
 v0.39.0
 - Reimplement FindAllTags RPC in Ruby

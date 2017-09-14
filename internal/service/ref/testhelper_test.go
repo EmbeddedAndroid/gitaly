@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/golang/protobuf/ptypes/timestamp"
 
 	"github.com/stretchr/testify/require"

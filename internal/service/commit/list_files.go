@@ -3,7 +3,7 @@ package commit
 import (
 	"bytes"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/grpc-ecosystem/go-grpc-middleware/logging/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
